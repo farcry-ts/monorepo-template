@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "codegen": "yarn --cwd backend codegen",
+    "start:backend": "yarn --cwd backend start",
+    "start:frontend": "yarn --cwd frontend start"
+  }
+}
