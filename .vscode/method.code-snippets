@@ -1,0 +1,18 @@
+{
+  "FarCry method spec and body": {
+    "scope": "javascript,typescript",
+    "prefix": "fcm",
+    "body": [
+      "",
+      "\t{",
+      "\t\tname: \"$1\",",
+      "\t\tparams: {$2},",
+      "\t\treturns: ${3:t.void}",
+      "\t},",
+      "\tasync function (params) {",
+      "\t\t$4",
+      "\t}",
+      ""
+    ]
+  }
+}
