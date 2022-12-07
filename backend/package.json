@@ -13,8 +13,8 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "farcry": "^0.0.4",
     "fp-ts": "^2.6.1",
     "io-ts": "^2.2.2"
